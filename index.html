@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="js/functions.js" defer></script>
+    <title>PhotoLand</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navs">
+        <img
+          src="img/diafragmaicon.svg"
+          alt="Logo PhotoLand"
+          class="navs__img"
+        />
+        <h1><strong>PhotoLand</strong></h1>
+      </nav>
+    </header>
+    <main>
+      <section class="sections">
+        <img
+          src="img/photocollage.jpg"
+          alt="Foto de collage de fotos"
+          class="imgCollage"
+        />
+      </section>
+      <section class="sections">
+        <h1 class="title">Presset de fotos increíbles</h1>
+        <h4 class="indications">
+          Descarga este presset de fotos gratis para tener fotos increíbles
+        </h4>
+        <h5 class="indications">Solo ingresa tu correo para recibirlo</h5>
+        <section class="emailSection">
+          <label for="email" class="indications">Correo</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="emailSection__input"
+            placeholder="Ingresa tu correo"
+          />
+          <button class="emailSection__btn" id="btn">Enviar</button>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
