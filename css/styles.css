@@ -101,3 +101,13 @@ footer {
   font-weight: 600;
   cursor: pointer;
 }
+.emailSection__btnmodal:hover {
+  background-color: #0b5520;
+  border-radius: 1em;
+  padding: 0.3em 0.7em;
+  margin: 1em;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+}
